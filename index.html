@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I did in my September vacation</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #f5f5f5;
+        }
+
+        /* WordPress Block Headings */
+        .wp-block-heading {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+
+        h1.wp-block-heading {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2.wp-block-heading {
+            font-size: 2rem;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+
+        h3.wp-block-heading {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        h6.wp-block-heading {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        /* Text Alignment */
+        .has-text-align-center {
+            text-align: center;
+        }
+
+        /* Text Colors */
+        .has-text-color.has-vivid-red-color {
+            color: #c2185b;
+        }
+
+        /* Font Sizes */
+        .has-large-font-size {
+            font-size: 1.5rem;
+        }
+
+        .has-medium-font-size {
+            font-size: 1.25rem;
+        }
+
+        /* Paragraphs */
+        p {
+            margin-bottom: 1rem;
+            text-align: justify;
+        }
+
+        /* Blockquotes */
+        .wp-block-quote {
+            margin: 2rem 0;
+            padding: 1rem 1.5rem;
+            border-left: 4px solid #ccc;
+            background-color: #f9f9f9;
+            font-style: italic;
+            color: #555;
+        }
+
+        .wp-block-quote p {
+            margin-bottom: 0.5rem;
+        }
+
+        .wp-block-quote.is-layout-flow {
+            display: block;
+        }
+
+        /* Code inside blockquotes */
+        .wp-block-quote code {
+            font-family: 'Courier New', monospace;
+            background-color: #f0f0f0;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+
+        /* Images */
+        .wp-block-image {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .wp-block-image .aligncenter {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .wp-block-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .wp-block-image figcaption {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        /* Lists */
+        .wp-block-list {
+            margin: 1.5rem 0;
+            padding-left: 2rem;
+        }
+
+        .wp-block-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        ul.wp-block-list {
+            list-style-type: disc;
+        }
+
+        ol.wp-block-list {
+            list-style-type: decimal;
+        }
+
+        /* Separator/HR */
+        .wp-block-separator {
+            margin: 3rem 0;
+            border: none;
+            border-top: 2px solid #ddd;
+        }
+
+        hr.wp-block-separator {
+            border-top: 2px solid #ddd;
+        }
+
+        /* Embedded Videos */
+        .wp-block-embed {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .wp-block-embed__wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .wp-block-embed__wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .wp-block-embed.aligncenter {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .wp-block-embed.is-provider-youtube {
+            max-width: 560px;
+        }
+
+        /* Columns Layout */
+        .wp-block-columns {
+            display: flex;
+            gap: 2rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .wp-block-columns.is-layout-flex {
+            display: flex;
+        }
+
+        .wp-block-column {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .wp-block-column.is-layout-flow {
+            display: block;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1.wp-block-heading {
+                font-size: 2rem;
+            }
+
+            h2.wp-block-heading {
+                font-size: 1.5rem;
+            }
+
+            .wp-block-columns {
+                flex-direction: column;
+            }
+
+            .wp-block-column {
+                min-width: 100%;
+            }
+        }
+
+        /* Superscript for dates */
+        sup {
+            font-size: 0.7em;
+            vertical-align: super;
+        }
+
+        /* General utility classes */
+        .aligncenter {
+            text-align: center;
+        }
+
+        /* Container for main content */
+        main {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <main>
+
+<h1 class="has-text-align-center wp-block-heading">What I did in my September vacation</h1>
+<h6 class="has-text-align-center wp-block-heading">Or how a failed attempt to develop superpowers screwed up everything.
+</h6>
+<h2 class="wp-block-heading">September 9<sup>th</sup></h2>
+<p>The night of the 9<sup>th</sup> I complained to Rebecca that I was experiencing what I described as a “fat tongue”
+    and I felt that I was slurring some words when speaking. Rebecca denied the slurring and we wrote the whole thing
+    off as possibly getting sick just in time to start my new on the 12<sup>th</sup>.</p>
+<h2 class="wp-block-heading">September 10<sup>th</sup></h2>
+<p>The morning of the 10<sup>th</sup> began as usual with me waking up around 5am. The day started off with me checking
+    email on my phone.</p>
+<p>Then things went off the rails.</p>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+    <p>From this point on most of my memories are blank, constructed from what other people have told me or entirely
+        made up. It's been long enough that I'm not sure what is what. Rebecca also tells me that my timeline is way
+        off.</p>
+</blockquote>
+<p>What I do remember is that Rebecca was in the bathroom and something was wrong. Like really, really wrong. The right
+    side of my body was only partly doing what I wanted it to, and my head felt off. It's not something you can
+    describe, only that my body wasn't really there like it usually was.</p>
+<p>I tried to call out to Rebecca but I could not speak. I remember trying to use my right arm to make noise by banging
+    in on the bed. My arm flopped around but I wasn't making noise (you try and make noise by banging on a mattress with
+    an arm that isn't doing what you want and see how you go).</p>
+<p>…</p>
+<p>Rebecca was standing over me with her phone yelling to Liam to come and help.</p>
+<p>…</p>
+<p>I recall some parts of a conversation about someone coming.</p>
+<p>…</p>
+<p>I was in a bed being pulled out of the back of an ambulance. The sun was really bright. The paramedics were really
+    attractive.</p>
+<p>…</p>
+<p>I know I was in the QE2 emergency department. There was a lot of lying in a bed and beeping things. &nbsp;I believe I
+    was in a CT scanner at one point and possibly an MRI. Someone mentioned that the scans showed a lesion in my brain.
+</p>
+<p>My earlier episode at home was being called a Tonic-Clonic Seizure (previously known as a Grand Mal).</p>
+<p>Emergency departments are really boring. Though the staff had nifty gadgets around their necks that they could use to
+    call other staff using voice recognition.</p>
+<p class="has-vivid-red-color has-text-color">Bec: You had a second seizure about 7:30am, which the nurses stopped with
+    an injection.</p>
+<p>They were trying to find a neurologist who was available to take me on. Greenslopes and the Wesley were the options
+    discussed. Eventually they found a bed at the Wesley for me.</p>
+<p>More waiting around before another ambulance ride. This trip I was mostly conscious for as I was wheeled out to the
+    ambulance. (PS. Queensland Ambulance Service has a policy of hiring extremely attractive people). I moved to the
+    ambulance bed and strapped in. The motors on the bed to get them in and out of the back of the ambulance are noisy.
+</p>
+<p>The trip to the Wesley Hospital was uneventful and I think I was taken straight to Ward 2M which is the neuroscience
+    ward for people who have brains that don't work right.</p>
+<h2 class="wp-block-heading">Fishbowl Stay #1</h2>
+<p>I have since found out that the policy at the Wesley is that if you have a seizure you get stuck in the fishbowl.
+    This is a 3-bed room right next the nurses' station with big glass walls so they supposedly see everything going on.
+    It is not pleasant.</p>
+<p>The thing you realize about the neuro ward is their main clientele is 70+ patients who have suffered a stroke. Most
+    of the time I was there, I was the youngest patient by a good 25-30 years.</p>
+<p>My neurosurgeon (ps. names have been redacted to protect the innocent, or more likely because I was there so long and
+    encountered so many people, I have no idea what their actual name is) introduced himself and said things about the
+    hole in my head. My lesion was now being called a mass, more tests were required to figure what the fuck it was.
+    Neurosurgeon vanished.</p>
+<p>I have learned that this is a mystical skill of doctors in hospitals. They show up unannounced at any time, they
+    speak really rapidly, may ask a few questions (sometimes they even appear to listen to the answers), then vanish in
+    a puff of antiseptic hand wash<em>. Maybe they have a course on how to do this in med school?</em></p>
+<p>By this time, I think I had at least 3 cannulas, most of which were being used to pump things into me. Sometimes they
+    sucked some blood out of them.</p>
+<p>I tried to sleep, which is surprisingly hard when you have someone wake you up every 4 hours to get your “OBs”
+    (observations) which include strapping a blood pressure cuff to your arm, attaching a pulse oximeter to a finger,
+    getting you to squeeze their fingers and the final insult is to shine a really, really bright torch in both eyes
+    (I'm sure staring at the sun would be less painful).</p>
+<h2 class="wp-block-heading">September 11<sup>th</sup></h2>
+<p>Things start to get hazy again from here.</p>
+<p>A speech therapist showed up with a glass of water, told me to swallow while she fondled my throat. I assuming it was
+    to make sure I wasn't going to choke to death on anything.</p>
+<p>More doctors' visits. I think I was up to 2 at this point (little did I know I was starting to collecting them like
+    Pokémon). I know had a neurosurgeon and a neurologist.</p>
+<p>My speech was affected by the seizure and getting words out was hard. My right arm wasn't doing what I wanted it to?
+    This may have occurred after the surgery. But otherwise I felt fine.</p>
+<p>Rebecca was by my side constantly. She's nice that way.</p>
+<p>More OBs, nurses are sadistic with their blinding torches. I complained to one that the service in this hotel is
+    shit. She found it funny enough that she had to tell everyone for the next week.</p>
+<h2 class="wp-block-heading">September 12<sup>th</sup></h2>
+<p>Saw in my email that the job I was supposed to start today was readvertised. Sigh.</p>
+<p>Think I had another seizure about now. This time it was called a focal seizure. I was conscious throughout and knew
+    what has happening. I just had no control over my right arm.</p>
+<p>I think they controlled this one by sticking with a drug called midazolam. The benefit of having so many cannulas is
+    you don't need more holes poked into you.</p>
+<p>Side-effect of Midaz is knocks you out. Spent most of the rest of the day asleep.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img fetchpriority="high" decoding="async" width="225" height="300"
+            src="./img/george.jpg" alt="">
+        <figcaption>George of the Hospital</figcaption>
+    </figure>
+</div>
+<p>I cannot describe how depressing it is waking up alone at 3am in a hospital thinking incredibly dark thoughts about
+    your own mortality and the number of things you haven't done and things you want to say to people. George kept me
+    company many of these hours.</p>
+<h2 class="wp-block-heading">September 13<sup>th</sup> – 16<sup>th</sup></h2>
+<p>No idea what really happened during most this time. I do remember the sadists who call themselves “nurses” and their
+    shiny torches.</p>
+<p>Had a visit from speech therapy people to try to improve my ability to talk. Apparently, having your brain spaz out
+    on you can make it difficult to communicate effectively. This involved long lists of words of various complexity. I
+    could say the easy ones, but the 3+ syllables were a struggle.</p>
+<p>Pretty sure there were more seizures and more Midaz. More drugs to control the seizures, Midaz is the nuke when
+    they're active in progress, other drugs were to stop them happening in the first place.</p>
+<p>I don't know how many CT scans and MRIs I had, but I'm sure I individually financed someone's next yacht.</p>
+<p>Somewhere in this period was a Functional MRI. This is fancy a MRI where they stuff you inside a big arse magnet and
+    get you to say things, or think other things. The idea is to map out what parts of your brain do what so that when
+    they decide to start the slicing and dicing they can try and avoid the bits you are actively using. My guess is
+    there wasn't a lot to worry about.</p>
+<p>There was talk of a PET FET Scan, but it didn't happen. This makes me sad as it involves radioactive goop specially
+    created just for me in Melbourne and shipped up so they can inject it into me. I'm pretty sure that would have given
+    me superpowers, but my brain decided against that option.</p>
+<p>At some point in this time I got my own room. People came to visit me. It was really nice that they came,
+    companionship is an excellent morale booster, even if you sound like a text-to-speech robot from the early 90s. For
+    those of you that came I will be forever grateful.</p>
+<p>At one point in here I got out of bed to tell the nurses that something was wrong. I remember thinking that they were
+    awfully busy (I heard their buzzer going off an awful lot) so I thought that it was better to go find one.</p>
+<p>Boy, did that get me in trouble.</p>
+<p>I was halfway down the corridor when one of nurses saw me approaching. I was having another focal seizure effecting
+    my right arm and face (having the muscles spams in your face uncontrollably is really uncomfortably and I would not
+    recommend it). They bundled me back into bed, shot me up with more Midaz and wheeled me back to the fishbowl.</p>
+<p>I'm told around Saturday/Sunday things went downhill fast. I have no recollection of it at all. Most of the last half
+    of that week is a complete blank. Rebecca tells me I spent a lot time focused on myself and how things hurt a lot
+    and having regular seizures. Apparently, I should have been more focused on how super she is.</p>
+<p>Sometime in here I had a seizure bad enough that they called a Code Blue (no idea what that means). I vaguely
+    remember at one point there were a crap load of people around me, so I'm assuming that was the code.</p>
+<h2 class="wp-block-heading" id="Surgery">September 17<sup>th</sup> – 20<sup>th</sup></h2>
+<p>Tuesday 17<sup>th</sup> I added to my collection of scars. This is the day the Neurosurgeon decided it was time to go
+    in and dig out the bad things.</p>
+<p>The image below is the MRI the day before the operation. The white circle is the abscess itself, while the grey
+    shadow around it is the swelling of the brain it caused.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img decoding="async" width="300" height="261" src="./img/PreOp.jpg" alt="">
+        <figcaption>Pre OP MRI</figcaption>
+    </figure>
+</div>
+<p>The next image is the MRI taken no the 13th October. You can see the abscess is significantly smaller, the swelling
+    is about the same size. The swelling is whats causing all my current issues.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img decoding="async" width="269" height="300" src="./img/postop.jpg" alt="">
+        <figcaption>Post OP MRI</figcaption>
+    </figure>
+</div>
+<p>While it's not as long the one on my chest, the scar I ended up with after the surgery is by far the coolest. I now
+    have a longish scar on the left temple in front of the ear. Chicks dig scars, right?</p>
+<p>Though saying that, neurosurgeons suck majorly at haircuts.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="225" height="300"
+            src="./img/postsurgery.jpg" alt="">
+        <figcaption>Post Surgery Head</figcaption>
+    </figure>
+</div>
+<p>I woke up in ICU… sort of. I wasn't really “awake” for the four days I was there, but I have memories of being
+    “awake” at the same time. There were a lot of machines and noises, but most of it was a blur. Vague memories of
+    Rebecca and maybe mum, but not really sure if they are real.</p>
+<p>The painkillers they fed me were the triply kind and I distinctly remember hallucinating. The thing about
+    hallucinating and knowing you're doing it is trying to sort out what is, and is not, real. The walls were pulsating
+    at me with weird textures. Things were kind of extruding from the roof and yet not. I knew it wasn't really
+    happening, but it was hard to keep reality in check.</p>
+<p>Sponge baths are also an interesting experience. Not as fun they should be that's for sure.</p>
+<p>A few days after getting out of ICU this is the sort of control I had over my right hand. I was attempt to touch my
+    thumb to the tip of each finger.</p>
+<figure
+    class="wp-block-embed aligncenter is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+    <div class="wp-block-embed__wrapper">
+<iframe width="1054" height="906" src="https://www.youtube.com/embed/qt2eV5KLYgc" title="Trying to touch thumb to finger tips." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</figure>
+<p>It was a momentous occasion when I managed to put my thumb up.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="225" height="300"
+            src="./img/madskills-thumb.jpg" alt="">
+        <figcaption>Mad Skillz</figcaption>
+    </figure>
+</div>
+<h2 class="wp-block-heading">September 21th</h2>
+<h3 class="wp-block-heading">Fishbowl Visit #?</h3>
+<p>Out of ICU I was wheeled into the fishbowl. I was now conscious enough to be told what was going on.</p>
+<p>With the seizures getting more frequent and more severe they had decided to it was time to cut open my skull and
+    actually poke around.</p>
+<p>I was lucky. Very Lucky.</p>
+<p>Up until the surgery, there was a high probability that my lesion/mass was cancer. The kind that generally kills the
+    people that have the misfortunate to grow one.</p>
+<p>What I had instead was a 3.1cm brain abscess. Think of your standard infected scratch filled with gunky puss and
+    gross stuff, but inside your brain. Mmmmmm… tasty.</p>
+<p>The reason this made me lucky is because it is something that has a specific cause and is very treatable. Unlike the
+    alternative, cancer, where they just radiate your brain and fill you full of poison in the hopes that the cancer
+    dies before you, or something you need, does).</p>
+<p>They took samples of the gunk and sent it to some pathology lab so they could play with it and try to figure it what
+    it was, and more importantly how to kill it.</p>
+<p>The problem with all this is after someone does something silly like stick a sharp pointy thing in your brain there
+    are consequences. In addition to the damage caused by the abscess itself, the surgery also caused some damage.</p>
+<p>So, I was now back in the fishbowl, together with the attendant sadistic nurses and their incessant need to shine
+    bright lights in your eyes every 4 hours. I was now permanently hooked up to an intravenous drip full of various
+    antibiotics while they tried to kill whatever was left of my brain parasite.</p>
+<p>A note about being hooked up to an IV drip 24 hours a day – they're fucking annoying. Every four hours they changed
+    the bag on it to pump me full of antibiotics in an attempt to kill everything in my blood stream. This went for an
+    hour, then the machine beeped to say it's out of drug, so the nurses had to come and change it and flush the drip,
+    which took 12 minutes. Then it beeped to again to say it was finished, so it needed to be changed over to a slow
+    drip of normal saline to keep the line open. Repeat every 4 hours.</p>
+<p>And that's assuming you didn't lie down the wrong way, or roll over or the moon was in the wrong position at which
+    the machine would beep to complain about something else.</p>
+<p>Let's not forget that when you are mobile and dressed in normal clothing, that you can't get your shirt off. Because
+    your arm has an extra attachment on it that ends in a big arse metal pole with an eternally beeping machine designed
+    by a lesser demon. So, to have a shower you need to have someone help you to take off a shirt.</p>
+<p>While I was still having seizures post op, they were a lot less severe, and less frequent. Thankfully the frequency
+    was also declining. Any seizures I had were classed as “focal” where the parts of my body would twitch. This was
+    predominately my right forearm, and the right side of my face. I could feel them coming on and could sometimes
+    control them. Most often it would happen when I was thinking too hard about almost anything. You know, the hard
+    stuff, like picking things up in your hand, trying to find the right word to say, staying awake too long, etc.</p>
+<h2 class="wp-block-heading">Fishbowl companions</h2>
+<p>While I was recovering from the surgery I spent a lot of time in the fishbowl (walking/talking was hard, the IV pole
+    was annoying, and I was tired ALL the time). In this time, I had a few notable companions that I felt worth
+    mentioning.</p>
+<h3 class="wp-block-heading">Angry German Nurse</h3>
+<p>This was an elderly lady with a strong Germanic accent. She was only there for one night, but if anyone had reason to
+    talk to her they would the story about how the nurses in the hospital were horrible, and she had been a nurse for 20
+    years and knew exactly what they were doing wrong. It didn't matter if there were taking OBs or replacing the water
+    jug – EVERYTINK WAS WRONG.</p>
+<p>When it came time for discharge, she had a piece of paper with 3 numbers on it. The first was her son-in-law who
+    owned his own business and always had his phone with him and would pick up (hint the number was not a valid phone
+    number).</p>
+<p>The second one was someone else who didn't answer the phone.</p>
+<p>The third was someone who took three attempts to contact who couldn't be there for over an hour. This didn't matter
+    to angry german nurse, she was out of there. Her bags were packed and she was on the way to the hospital reception
+    to await pickup.</p>
+<p>Going by her general demeanour, and how angry she got with anyone that talked to her, I got the impression that her
+    contacts were probably dodging her calls intentionally.</p>
+<h3 class="wp-block-heading">Deaf Incontinent Dementia Guy</h3>
+<p>While a sad story, this guy was mostly notable for the amount of trouble he caused for the staff. In the middle of
+    the night he took his hearing aides out, which meant everyone had to shout at him to be barely understood, he also
+    refused to comply with any instructions about the need to pee. The dementia only added to it because he was
+    constantly confused about why people were shouting at him about the need to pee.</p>
+<p>This would have been sadly amusing had it not being going on for hours, in the middle of night, while I was trying to
+    recover from someone chopping a hole in my skull.</p>
+<h3 class="wp-block-heading">Attempted “murder” victim</h3>
+<p>One guy I met was a nice guy in his late 60s. He had been helping his wife carry some stuff out to the trash, and
+    while distracted by carrying too much stuff, and dodging things on the ground, he wasn't looking up. What he failed
+    to notice was his wife (who was a lot shorter than he was) had only partly opened the garage door. She was
+    comfortably carrying stuff out to the bin and this guy followed her out. He clonked his head on the bottom of the
+    door, knocking himself out.</p>
+<p>The poor guy ended up with a massive bleed in the front of his brain, and over the course of the 1 day I knew him he
+    degraded pretty rapidly before they wheeled him off to surgery.</p>
+<h2 class="wp-block-heading">Post Op visits from the neurosurgeon</h2>
+<p>I had a few brief visits from the neurosurgeon who came to check out his handy work. He did good work. The scar was
+    straight, and everything seemed to be healing well. The dissolvable stitches meant nothing had to be done and I just
+    had to wait for the scab to heal fully. There was some concern that the abscess might fill itself up and they would
+    have to go in a second time to drain it. So, I had periodic CT scans to see what was going on, but everything seemed
+    to going well. The only thing remaining was to kill the parasites and wait for the inflammation from the surgery and
+    abscess to go away. This, I am told, will take “months”.</p>
+<p>He was apparently satisfied that his job was done and I rarely saw him after that.</p>
+<h2 class="wp-block-heading">Private room again</h2>
+<p>After they found the abscess, I ended up with a new doctor to add to my roster. Apparently when you have a brain
+    parasite, you need a specialist to deal with it. This guy is a specialist in infection diseases, and was in charge
+    of figuring out what to do about it all.</p>
+<p>Thankfully, this guy read the riot act to the nurses and told them I need rest and recuperation that wasn't possible
+    in the fishbowl, so ended my stay in the fishbowl. His reasoning being any seizures I had post-op were focal and I
+    was fully conscious throughout and capable of calling for help.</p>
+<p>The pathology people took a few days to culture the samples they pulled out of my brain and found that it was
+    actually two bugs, and fairly common ones. One that generally lives in your sinuses, and the other in your mouth.
+    Once they identified them, they went to working trying to figure out the best way to kill them.</p>
+<p>Again, I got lucky, both bugs were susceptible to Benzylpenicillin. This means they got to change the fancy drugs on
+    my IV pole to some boring (and probably a lot cheaper) penicillin variety. It still beeped at me every 4 hours
+    though.</p>
+<p>To ensure that all the bugs were dead, and stop it happening again, the ID doc made plans to have a PICC
+    (Peripherally Inserted Central Catheter) inserted. For those of not familiar with a the medically jargon, this is
+    essentially a long tube they stick into a vein in your upper arm and feed through to your heart. It's used when you
+    have to have intravenous drugs pumped into your system over a long, long, period of time. On the outside of your arm
+    you have a couple of dangly bits that they hook up drugs to. They can also be used to draw blood straight from your
+    heart. I was a candidate because I was going to be on the Benzylpenicillin for 6 weeks.</p>
+<div
+    class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+        <div class="wp-block-image">
+            <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="216" height="300"
+                    src="./img/baxter.jpg" alt="">
+                <figcaption>PICC Baxter Pump</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+        <div class="wp-block-image">
+            <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="219" height="300"
+                    src="./img/picc.jpg" alt="">
+                <figcaption>The other end</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+<p>The idea was for me to use a Baxter pump to continuously feed the drugs into my system over a 24-hour period. The
+    Baxter is a marvellous device which uses a pressurized balloon to infuse whatever through the PICC into your blood
+    stream. This would mean a few things for me:</p>
+<ol class="wp-block-list">
+    <li>I would no longer be tied to an IV Pole – NO MORE BEEPING EVERY 4 FUCKING HOURS.</li>
+    <li>I could have a shower without tangling myself up in tubes</li>
+    <li>FREEDOM – I didn't need to drag around the IV Pole any more, I could roll over in bed without something tangling
+        up or beeping.</li>
+    <li><strong>It's silent.</strong></li>
+</ol>
+<p>Whoever came up with this thing deserve a medal.</p>
+<p>PS. 6 week update – PICCs &amp; Baxter pumps suck. I'm sick of having things attached to me and getting tangled up on
+    stuff. It's uncomfortable and itches and is generally annoying. Though it still doesn't beep at me.</p>
+<hr class="wp-block-separator">
+<p class="has-text-align-center has-large-font-size"><em>And this dear reader is where things get really
+        interesting.</em></p>
+<h2 class="wp-block-heading">The PICC Insertion</h2>
+<p>To insert a PICC line you need a radiologist because they guide the tube into the right veins into the heart. So,
+    after a local anaesthetic in my arm they started stuffing the appropriate tubing into my veins, and the surgeon says
+</p>
+<p class="has-text-align-center has-medium-font-size">“That's interesting, we haven't had one of those for a while”</p>
+<p>In certain circumstance this is not the sort of thing you want to hear. I can assure you that one of those
+    circumstances is when a radiologist is trying to insert things into your heart.</p>
+<p>After a lot of fiddling around the team of people started pulling the PICC in and out of my arm and cutting bits off
+    of it (It started out at 51cm? and ended up about 46cm from memory). There was also a lot of flashing of the lights,
+    which I assume were to take a number of x-rays, but I don't really know.</p>
+<p>Eventually it was all over and I was shuffled back to my room with a shiny new dual lumen PICC dangling out of my
+    arm. I was provided with the added caution to not get it wet, it's “sort of water proof, but the lumens coming out
+    of the bottom of the bandage can let water in”.</p>
+<p>Then the cardiologist showed up and starting talking about my heart and asking questions like “Did you know you had a
+    heart defect?”.</p>
+<p>And this is where we start delving way back into the past.</p>
+<h2 class="wp-block-heading">1975</h2>
+<p>It all began way back in the days of yore when mankind was young and foolish, and the internet wasn't yet invented.
+    When I was a wee lad, I had desires of being a mutant supervillain but I couldn't even get that right.</p>
+<p>Instead of getting super powers, I instead grew myself a bunch of congenital heart defects, only two of which are
+    actually important.</p>
+<ol class="wp-block-list">
+    <li>Atrial Septal Defect</li>
+    <li>Two Superior Vena Cavas</li>
+</ol>
+<p>For those of you in the audience who aren't up-to-date with general human anatomy (shame on you) here is a recap.</p>
+<div
+    class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+        <div class="wp-block-image">
+            <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="300" height="186"
+                    src="./img/body.jpg" alt="">
+                <figcaption>Body</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+        <div class="wp-block-image">
+            <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="300" height="274"
+                    src="./img/heart.jpg" alt="">
+                <figcaption>Heart</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+<p>Blood from the body enters into the right atrium, it gets pushed into the right ventricle and from there to the lungs
+    where it gets filtered and re-oxygenated. From the lungs, it comes back to the heart by the pulmonary veins, into
+    the left atrium. After which it's pushed into the left ventricle and pump to the rest of the body via the Aorta.</p>
+<p>Enough about boring people hearts.</p>
+<h2 class="wp-block-heading">Dual Superior Vena Cava</h2>
+<p>One way in which I'm special is that I have not one, but two Superior Vena Cavas. If you look at the earlier image of
+    the veins/arteries of the body you can see that above the heart all the veins (blue) that come out of the head and
+    arms join up just before they enter the heart.</p>
+<p>The bit where everything has joined together is the Superior Vena Cava. Instead of this, my body has 2 of them. The
+    veins from the right side of head and right arm are normal and join up and enter the heart where normal people's
+    veins do. Meanwhile the veins from the right side go their own way and enter the right atrium somewhere else. The
+    pictures below kinda show what is going on.</p>
+<div
+    class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+        <div class="wp-block-image">
+            <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="245" height="300"
+                    src="./img/Normal-Heart-1.png" alt="">
+                <figcaption>Normal Heart</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+        <div class="wp-block-image">
+            <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="221" height="300"
+                    src="./img/Dual-SVC.png" alt="">
+                <figcaption>Dual SVC</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+<h2 class="wp-block-heading">Atrial Septal Defect</h2>
+<p>Normally, when the heart forms there is a wall between the two atriums. In some cases, there may be a hole in this
+    wall, but it normally closes and there are no issues. My failed attempt at mutant superpowers however screwed this
+    up, and the hole was large, and didn't go away on its own.</p>
+<p>I'm not sure exactly how badly my heart had screwed this up, but it was pretty bad.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="221" height="300"
+            src="./img/ASD.png" alt="">
+        <figcaption>Faulty Heart</figcaption>
+    </figure>
+</div>
+<p>This, as you can imagine, causes all sorts of problems. The mixing of blood from both atriums means that there is a
+    large percentage of deoxygenated, unfiltered blood being recirculated throughout the body. The problem with this is
+    that the body kinda needs oxygen to survive and it wasn't getting it.</p>
+<p>Being in the late 70's, things like heart surgery on young children, while not brand new, were still fairly uncommon.
+    The doctors at the time decided to wait things out until I was 10 before cutting me open and playing around with
+    various non-vital organs like my heart. I assume this decision was mainly because a 10-year-old is a lot larger than
+    an infant, and thus easier to do things with their insides.</p>
+<p>However, things (as typical) got worse. In order to compensate for the lack of oxygen being delivered to the
+    extremities my heart was growing larger and stronger (MOAR POWER!!!) to push more bad blood around. While a valiant
+    effort, it wasn't enough. Symptoms of this included things like blue lips, a deformed ribcage (the heart was growing
+    large enough that the ribs were pushed out of the way to make room for the larger heart – easy to do in a small
+    child because they're pretty flexible then).</p>
+<p>When I was 3, the surgeons decided I couldn't wait another 7 years and it was time to intervene. So, they put me
+    under, cut me open and poked around with my insides. After surgery things improved greatly and I went on with life
+    as normal.</p>
+<p>Unfortunately, unknown to anyone, the surgeons mildly screwed things up. Twice.</p>
+<p>And who can blame them really. A three-year-old is pretty damn small, and their heart is way, way smaller. Technology
+    in the 70's didn't include things like microsurgery and all the fancy things we have now, so they did the best they
+    could by sticking their big adult-sized hands in a comparatively small vital organ of a toddler.</p>
+<p>The patch that was put in place separated the two atriums, so (supposedly) the blood wasn't mixing and causing
+    oxygenated and deoxygenated blood to recirculate. Things were looking up.</p>
+<p>Unfortunately, the patch they put in place to separate the atriums and stop the blood from going the wrong way was
+    only “mildly” in the wrong place. Instead of directing the blood from the right superior vena cava into the right
+    atrium, the patch directed it to the left atrium. Meaning a quarter of the blood in my body has been going into the
+    wrong atrium... for the last 41 years. Whoops.</p>
+<p>So now rather than <em>all </em>the blood being mixed up and pushed around incorrectly, 75% of it was good, but the
+    other 25% was all bad… almost. It turns out that the patch has a hole in it. Whether this was there from the start
+    or formed over time is not known. But due to differences in pressure on either side of the atrial wall it meant that
+    some of the blood from the right SVC was being forced into the right atrium where it should have been anyway.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="213" height="300"
+            src="./img/ASD-Repair.png" alt="">
+        <figcaption>The result</figcaption>
+    </figure>
+</div>
+<p>So now we've covered how screwed up my heart is, we are come back to that day in early September. For the last 40 odd
+    years I've been running around with dodgy plumbing where 25% of the blood in my body is circulating without being
+    filtered, or oxygenated, by the lungs. (Just think of how awesomely fit I would have been if things were operating
+    as intended.) I can now blame the surgery I had when I was 3 for how I didn't hit my marathon target time, and not
+    just being unprepared and lazy.</p>
+<h2 class="wp-block-heading">How does all of this relate back to getting brain parasites?</h2>
+<p>The Infectious Disease specialist was very curious as to how I managed to get some rather bland and common bacterial
+    infection inside my brain. That kind of thing is almost impossible… unless you have a heart that doesn't work quite
+    right and you're pumping blood back into your circulatory system without it being filtered by the lungs first.</p>
+<p>The current theory is: a week or two before the first seizure, I had a minor infection in my teeth or sinuses (or
+    perhaps I picked my nose too much). This is normal and typically would not be even noticed. BUT... the infection got
+    dislodged somehow and went through my heart the wrong way and ended up in my skull.</p>
+<p>While there, it took up residence in a nice comfy new home and grew to the 3.1cm lesion that eventually screwed
+    around with something important. Took out its spice weasel and bam – grand mal seizure.</p>
+<p>The interesting thing about all this is that this could have happened at any time in past 40 odd years. It was just
+    pure chance that it happened at all. If I hadn't irritated some minor god somehow, my brain would still be in its
+    usual state and life would have gone on as normal.</p>
+<p>Or, it could be considered a good thing that it happened when it did. Two days after the first seizure I was supposed
+    to start a new job. This job would have had me travelling regularly to Zambia. One of the bigger cities of Zambia,
+    but not somewhere with hospitals staffed with highly trained doctors, nurses and assorted specialists in infectious
+    diseases and neurosurgery. I'm told that if the operation hadn't happened within 48 hours of things getting worse
+    the way they did, I would most likely have died. If the seizure had occurred a month or so later, I would have been
+    40 hours of travel away from home, stuck in northern Zambia. So, maybe it was a good thing it did happen when it
+    did.</p>
+<p>Sucks about the job though, it did look like it would have been interesting and the pay was rather nice.</p>
+<p>Anyway, back to our story.</p>
+<h2 class="wp-block-heading">26<sup>th</sup> September</h2>
+<p>Everything was looking good. My seizures had reduced considerably. I had started to recognize the symptoms of when
+    one was coming on and, in some cases, control them, either by conscious thought and willing my hand to be still, or
+    by stopping everything I was doing and lying down (often resulting in a nap).</p>
+<p class="has-vivid-red-color has-text-color">Bec: Or it was just that not all the seizures progressed and you had
+    nothing to do with that. But, hey... whatever. ?</p>
+<h2 class="wp-block-heading">27<sup>th</sup> September</h2>
+<p>After the cardiologist visited, I was scheduled for another echocardiogram to see what they could see in my heart.
+    The tech who was running the scan was only mildly interested until she heard about the dual SVCs and the atrial
+    septal defect. At which point things started to hurt. She was jabbing the probe into my chest/abdomen with wild
+    abandon trying to see if she could see where things were going wrong in real time. It was exciting enough that she
+    called in a colleague to help with the jabbing.</p>
+<h2 class="wp-block-heading">28<sup>th</sup> September</h2>
+<p>After the results of the echocardiogram, the cardiologist requested to meet with my parents because they were there
+    back in the 70s and might have been able to provide some more info. Apparently, my memories as a three-year-old
+    weren't satisfactory. Go figure.</p>
+<p>It was urgent enough that the cardiologist had said “I have a full day of surgeries booked, but get to nurses to page
+    me when your parents are here and I'll come up”.</p>
+<p>So, come he did, in full surgical attire down to the cloth booties and cap. He rattled off a few questions, and
+    whatever answers Mum had provided were enough to confirm his suspicions.</p>
+<p>He then described everything about what was wrong with my heart and the repair that I wrote about earlier. The next
+    sentence he said will stick with me forever.</p>
+<p class="has-text-align-center has-medium-font-size">“This can all be fixed, but it's above my pay grade.”</p>
+<p>This is from a fully qualified cardiologist who has been practicing for over 20 years, suited up in surgical scrubs,
+    heading straight out of one operation before heading to another. He had just told me that everything I had been
+    through for the past two weeks was related to a 41-year-old operation. He did this quickly, calmly and in a manner
+    that was easily understood, then turned around and said – I'm not good enough to perform the operation you need to
+    fix you.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="225" height="300"
+            src="./img/cardiologists-diagram.jpg" alt="">
+        <figcaption>The Cardiologist's diagram</figcaption>
+    </figure>
+</div>
+<p>Apparently, there are a group of specialist cardiologist in the world (5 in Australia, 2 in Brisbane) who focus
+    specifically on congenital heart defects in adults and I need to see one of them.</p>
+<p>This was then followed up by, “it also cannot be done until after the damage to your brain is fully healed sometime
+    in the next 6 – 12 months”.</p>
+<p>You see, when you perform any surgery on the heart you need to use a lot of anticoagulants. The purpose of this is to
+    make sure your blood doesn't clot while they're messing around with your heart. Unfortunately, blood that doesn't
+    clot also likes to spill out of holes where it can (In case you've forgotten I have a not insignificant hole in my
+    brain, and bleeding in your brain is considered a bad thing).</p>
+<p>The cardiologist told me that there are a team of specialists who operate out of the Prince Charles Hospital in
+    Brisbane who focus specifically on all these interesting heart problems. So, once my brain has healed, all my
+    details will be passed off to them and they will all sit and around and figure out the best way to fix it properly,
+    either through more open-heart surgery, or by way of an angiogram.</p>
+<p>So now my roster of doctors includes:</p>
+<ol class="wp-block-list">
+    <li>Neurosurgeon – to cut open my skull</li>
+    <li>Neurologist – to drug to me to the eyeballs (and beyond) to control the seizures while the damage in my brain
+        heals itself</li>
+    <li>Infection Disease Specialist – to kill the things that are growing where they're not supposed to</li>
+    <li>Cardiologist – to cut up my heart again and put it back together so it's proper like.</li>
+</ol>
+<p>Added this are the therapy/rehab specialists:</p>
+<ol class="wp-block-list">
+    <li>Physiotherapy – to ensure I can walk around without tripping on my own feet</li>
+    <li>Occupational Therapist – to help me learn to write and type again</li>
+    <li>Speech Pathologist – to work on rewiring my brain so I can speak normally, and think deeply complex thoughts.
+    </li>
+</ol>
+<p>This does not include the dozens of nurses and orderlies in the hospital who helped look after me while I was in
+    there for over a month.</p>
+<h2 class="wp-block-heading">29<sup>th</sup> September – 2<sup>nd</sup> October</h2>
+<p>Things were looking up. The drugs were keeping the seizures to a minimum. The wound on my head was healing nicely (I
+    now had a cool scar to show off). I'd shaved my head, because neurosurgeons are crap at giving haircuts. My Baxter
+    pump had shown up and I was off the IVs and the beepy machines. All the cannulas had been removed. Most importantly,
+    I had a date I could go home and be free – 2<sup>nd</sup> October.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="225" height="300"
+            src="./img/shaved.jpg" alt="">
+        <figcaption>Shaved and somewhat lopsided</figcaption>
+    </figure>
+</div>
+<p>Then, two days before checkout, I developed a fever.</p>
+<p>Apparently being in a hospital for so long, it's not uncommon to get sick (if somewhat ironic). Somehow, I contracted
+    Rotavirus (I'm positive I was washing my hands regularly, so someone else gave it to me) – Rotavirus is not fun and
+    I don't recommend getting it.</p>
+<p>One of side-effects is that nurses then had to follow “contact precautions” which basically say that every time they
+    come in to do something to me, they have put on a facemask, disposable apron and gloves to make sure they don't get
+    infected and spread it around the hospital. Hospitals are definitely not focused on the zero-waste ideology.</p>
+<p>I was too sick to eat, and not drinking enough, so in went yet another cannula for IV fluids and my release date was
+    cancelled.</p>
+<p class="has-vivid-red-color has-text-color">Bec: Don't forget, during this time you also had another seizure. It was
+    different from the rest and much more painful. Still a focal seizure though, which meant they upped your medication.
+    The new meds made you practically comatose. I was told your lungs were starting to fill with liquid and you had to
+    be upright for at least half an hour at a time several times a day. I couldn't get you to sit up for more than five
+    minutes at a time, and when you did sit up you slumped forwards with your head on the table. I was terrified you'd
+    get a chest infection and end up in the hospital even longer. Every time a doctor came to visit they would ask if
+    you were eating okay. I would remind them you hadn't eaten for a day, two days, three days. They would seem
+    surprised – EVERY TIME. The Neurologist at the time kept telling me that yes the new drugs would make you ‘a little
+    sleepy'. I quietly objected to her description and told her you couldn't sit up and you were going to get a chest
+    infection. It was all very scary. Then you got better. Yay!</p>
+<h2 class="wp-block-heading">3<sup>rd</sup> October – 7<sup>th</sup> October</h2>
+<p>After getting over being sick I spent the next few days being bored. If you're in the between state of being sick
+    enough to actually need to be in hospital and not well enough to go home, hospitals are really fucking boring.</p>
+<p>There is nothing to do. The hospital's internet connection is crap and my phone's data plan is cheap and doesn't let
+    me browse the internet all day – and there isn't really anything of interest on there anyway. <span
+        class="has-text-color has-vivid-red-color">Bec: HAH!</span></p>
+<p>Reading was still difficult because concentrating on anything hurt my brain. I kept losing track of what was going on
+    and had to keep re-reading the same paragraph multiple times.</p>
+<p>While I had managed to get back the gross motor control of my right hand, the fine motor skills were still eluding
+    me. Someone kept moving the keys on my laptop and I kept pushing the wrong buttons (for example it would take 6
+    attempts to type “the” and efforts at correcting my mistakes just ended up with an endless repetition of =, ] &amp;
+    \ showing up instead of backspace.)</p>
+<p>I spent a lot of time pacing the corridor of my ward to pass the time. Their carpet is really ugly, and most of the
+    art work on the walls is meh. I wasn't allowed to roam the hospital because I was a seizure risk, and I couldn't get
+    out on the balcony without a nurse swiping me out first (they also lost me once when I went out and the nurse who
+    let me out didn't tell anyone else).</p>
+<p>Home time was pushed back to the 8<sup>th</sup> October.</p>
+<h2 class="wp-block-heading">8<sup>th</sup> October</h2>
+<p>After an interminable wait I was allowed to go home. Suddenly, I had people rushing all over the place to sort things
+    out for me. I had 3 separate visits from pharmacy (I now have a bucket load of drugs), multiple nurses checking
+    paperwork, home nurses trying to schedule follow-up visits (the Baxter needs changing once a day and I needed to
+    arrange a time for a nurse a visit me at home, which worked around all the other things that also need to be done),
+    and scheduling follow-up therapy visits.</p>
+<p>Oddly enough in all of this the hardest thing to organise was to get the doctors to sign on off my release. The
+    neurosurgeon who hadn't been to visit in over a week, and who I had one brief conversation (about his next holiday)
+    while pacing the corridors, was the hardest to get the sign-off from.</p>
+<p>Finally, at 2PM I was free.</p>
+<p>Rebecca packed up my crap and I shuffled slowly out to the car park.</p>
+<p>The 20-minute car ride home was exhausting, so the first thing I did after getting home was to have a nap.</p>
+<h2 class="wp-block-heading">9<sup>th</sup> October – 13<sup>th</sup> October</h2>
+<p>Everything was going well. I had settled into a life of warming the couch while reading, warming the couch while
+    having a nap and generally do sweet FA. I was taking copious amounts of drugs morning and night and sleeping an
+    awful lot.</p>
+<p>I was trying to keep up with the therapy exercises I had been given to do, but sleeping and reading seemed more
+    interesting. Also, between 1pm and 3pm I had to be available for the home nurse to rock up and change the daily dose
+    of IV antibiotics in the Baxter.</p>
+<p>I tried to do some things around the house, but not very successfully. Emptying the dishwash in the morning required
+    a 2-hour recovery nap.</p>
+<p>All in all, it was pretty boring.</p>
+<p>After breakfast on Sunday the 13<sup>th</sup> I was sitting at the kitchen table doing the “homework” that the speech
+    pathologist had given me. One of the issues that my brain parasites had left me with was difficulties in finding
+    words. When you try and form a sentence, your brain runs around all the words you know and pulls out the correct
+    ones that fit what you are trying to say. My issue relates to how the brain does this finding of words. To this day
+    it's still one the hardest things I have in my “homework”, and by “hard” I mean my heart rate goes way up, I start
+    to shake (generally my right arm) like I've had a shot of adrenaline (or three/four shots of espresso) and my brain
+    begins to ache.</p>
+<p>This particular bit of homework consisted of naming as many things as possible that exist in a category. For example,
+    in one-minute name as many breeds of dog as you can, or words starting with R.</p>
+<p>This particular Sunday I spent about 5 minutes on this homework before I'd had enough. The shaking had started pretty
+    quickly and my head hurt, so I stopped and went and lay on the couch for another nap.</p>
+<p>Awhile later I was still shaking when Rebecca noticed me.&nbsp; The shaking had spread to my right leg and I well
+    into a full-on focal seizure. Who do you call at 8:45 on a Sunday morning when you need advice? The doctors weren't
+    answering their phones and local the GP was closed. So, Rebecca called the ambulance again (once again I can attest
+    to the hiring policy of the Queensland ambulance service).</p>
+<p>After they arrived, they were figuring out what to do. Apparently, their policy states they're not allowed to give
+    someone midazolam when they're conscious, so they had to get approval from their superiors. By the time this came
+    through I had been having a focal seizure affecting my right arm and leg for about 50 minutes.</p>
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+    <p><code>By the way, to the student paramedic who put the cannula in, it hurt when you put it in, and it was a really shitty spot so I couldn't bend my wrist without it hurting every time.</code>
+    </p>
+</blockquote>
+<p>I was bundled into the ambulance again and off we went to the Wesley emergency department. 8 hours of boredom later I
+    was readmitted to my old ward and go to say Hi to all my old nurses who thought they'd gotten rid of me.</p>
+<p>Thankfully, this time I was only in overnight before being sent home again.</p>
+<h2 class="wp-block-heading">14<sup>th</sup> October - now</h2>
+<p>Since being sent home (for the second time) nothing drastic has happened. I still sleep a lot. The number of
+    different drugs I'm on, to control the seizures, has been pretty constant, though the amount of one of them has been
+    increased twice.</p>
+<p>I've been to therapy twice now; the first time was to get baseline measurements. The second time was to start doing
+    things.</p>
+<p>My physios have been stymied by the cardiologist, who put a blanket ban on me doing anything that gets my heart rate
+    up (though I'm trying to get clarification on what I can/cannot actually do). So, we're working on my balance and
+    general posture – doing squats on a Bosu Ball is really hard.</p>
+<p>The OT has given me the hardest lot of theraputty to play with to strengthen my hands and fingers. Typing has been
+    improving by actually doing things (Ie. this wordy lot of random garbage you're reading now). I haven't really
+    worked on my handwriting though. It's about as legible as it used to be, and who writes these days anyway? Though I
+    really should do more just to improve endurance.</p>
+<p>My speech pathologist nearly killed me at the second session. We were working on the finding words thing I described
+    earlier and it was ok for a bit. Then she decided to make it harder by taking me for a walk. Apparently walking and
+    talking and thinking of ways to describe the height and weight of a coin (in detail) was too much for my tiny brain
+    and I started in on the ‘almost a seizure but not quite' thing again. Which meant my hour long session was cut very
+    short.</p>
+<p>I still use the wrong words all the time while trying to write things down, and while my spelling is improving it's
+    not great. Spell check has been very helpful when writing this thing. <span
+        class="has-text-color has-vivid-red-color">Bec: I've been a little bit helpful, too. ?</span></p>
+<p>I have had the PICC removed from my arm, and substituted it with a massive load of oral antibiotics.</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="225" height="300"
+            src="./img/noIV.jpg" alt="">
+        <figcaption>DROOOGSS!!!</figcaption>
+    </figure>
+</div>
+<p>My daily drug dosage is somewhat insane</p>
+<div class="wp-block-image">
+    <figure class="aligncenter size-medium"><img loading="lazy" decoding="async" width="214" height="300"
+            src="./img/breakfastdinner.jpg" alt="">
+        <figcaption>Breakfast and Dinner</figcaption>
+    </figure>
+</div>
+<ul class="wp-block-list">
+    <li>430mg Dilantin (Morning)</li>
+    <li>1500mg Amoxicillin (Morning / Night)</li>
+    <li>0.5mg Clonazepam (Morning / Night)</li>
+    <li>1500mg Keppra (Morning / Night)</li>
+</ul>
+<p>Apart from the Amoxicillin, every one of these is some kind of suppressant to control the seizures while my brain
+    heals. Which is why I sleep a lot and have trouble thinking.</p>
+<p>I'm going to therapy sessions one a week to visit the OT, Physio &amp; Speech people. Things are slowly improving,
+    but still not great. Speech therapy is still the hardest of them all as there isn't really anything wrong my body.
+    It's actually having to use my brain and think things that hurts the most.</p>
+<p>I wake up in the morning with the shakes until after I take my morning drug dosage. I sleep a lot (I have a nice spot
+    on the couch that I have claimed as my own).</p>
+<p>There is still a droop on the right side of my face which gives me a lopsided smile, but it is slowly improving.</p>
+<p>Basically, life goes on.</p>
+<h2 class="wp-block-heading">Post</h2>
+<p>Thanks to all of you who have provide support through this ordeal. It is really appreciated.</p>
+<p>Friends who have provided companionship and support.</p>
+<p>Family who have been there when needed, looking after the spawn, helping out with general stuff, providing food, etc.
+</p>
+<p>The kids have been good and have helped when/where they can. I don't believe they know the magnitude of how serious
+    things were at the beginning though.</p>
+<p>Rebecca has been marvellous dealing with everything, and I greatly appreciate all the work and effort she has put in.
+    Rebecca has been by my side the entire time and supported me through everything. While she has tried to hide how
+    hard it has been on her, I've hung around long enough to tell it's been wearing. Hopefully I'll be able to repay her
+    somehow soon.</p>
+</div>
+
+</main>
+</body> 
+</html>
