@@ -1,0 +1,54 @@
+# robots.txt
+# Purpose: block indexing and automated scraping by search engines and known AI crawlers.
+# If you want to allow indexing, remove or modify these rules.
+# NOTE: Not all AI systems respect robots.txt or meta tags. This file expresses intent to block.
+
+# Block everything by default
+User-agent: *
+Disallow: /
+
+# Explicit entries for common crawlers / bots (keeps intent clear)
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: facebot
+Disallow: /
+
+User-agent: twitterbot
+Disallow: /
+
+# AI / research crawlers (name-based; not exhaustive)
+User-agent: OpenAI
+Disallow: /
+
+User-agent: Anthropic
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# End of file
